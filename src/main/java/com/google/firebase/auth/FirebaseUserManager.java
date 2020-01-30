@@ -227,6 +227,7 @@ class FirebaseUserManager {
     return new UserImportResult(request.getUsersCount(), response);
   }
 
+  // TODO(micahstairs): Write unit tests for this method.
   ListTenantsResponse listTenants(int maxResults, String pageToken) throws FirebaseAuthException {
     ImmutableMap.Builder<String, Object> builder = ImmutableMap.<String, Object>builder()
         .put("maxResults", maxResults);

@@ -89,8 +89,8 @@ public final class Tenant {
     }
 
     /**
-    * Builder class used to construct a create request.
-    */
+     * Builder class used to construct a create request.
+     */
     @AutoValue.Builder
     abstract static class Builder {
       public abstract Builder setDisplayName(String displayName);
@@ -138,8 +138,8 @@ public final class Tenant {
     }
 
     /**
-    * Builder class used to construct a update request.
-    */
+     * Builder class used to construct a update request.
+     */
     @AutoValue.Builder
     abstract static class Builder {
       public abstract Builder setDisplayName(String displayName);
